@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>Lucky Coffee</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <a href="#" class="logo">Lucky Coffee</a>
+            <ul class="nav-links">
+              <li><a href="register.html">Home</a></li>
+              <li><a href="product.html">Products</a></li>
+              <li><a href="test.html">Login</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h1>Lucky Coffee</h1>
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="1.jpg" style="width:20%">
+          <div class="text">50$</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="2.png" style="width:20%">
+          <div class="text">50$</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="4.jpg" style="width:20%">
+          <div class="text">50$</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a> -->
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    <div class="container">
+        <div class="card">
+            <img src="5.jpg">
+            <h2>Macarons</h2>
+            <p class="price">฿35.00</p>
+            <p class="description">Macarons.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="6.jpg">
+            <h2>Blueberry-Cheesecake</h2>
+            <p class="price">฿75.00</p>
+            <p class="description">Blueberry-Cheesecake.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="7.jpg">
+            <h2>Strawberry Cheesecake</h2>
+            <p class="price">฿65.00</p>
+            <p class="description">Strawberry Cheesecake.</p>
+            <button>Add to Cart</button>
+        </div>       
+    </div>
+</body>
+<script src="product.js"></script>
+</html>

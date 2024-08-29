@@ -1,0 +1,48 @@
+body {
+    font-family: "Itim", cursive;
+    background-color: #fff5e6; 
+    color: #f88109; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Itim", cursive;
+}
+
+.navbar {
+    background-color:  #e9862a; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: "Itim", cursive;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}

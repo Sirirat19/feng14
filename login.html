@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Coffee</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Lucky Coffee</a>
+        <ul class="nav-links">
+            <li><a href="register.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="test.html">Login</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <form id="form" onsubmit="event.preventDefault(); Formsubmit();">
+        <h1>CRUD</h1>
+        <div class="inputtext">
+            Name ::
+            <input type="text" name="txtName" id="txtName">
+        </div>
+        <div class="inputtext">
+            Address::
+            <input type="text" id="txtAddress">
+        </div>
+        <div class="inputtext">
+            Tel ::
+            <input type="text" id="txtTel">
+        </div>
+
+        <div>
+            <input type="submit" value="submit" class="button-submit">
+            <input type="reset" value="reset" class="button-reset">
+        </div>
+        </div>
+        <section>
+            <table id="tblcontact" border="1">
+                <thead>
+                    <tr>
+                        <th>ชื่อ</th>
+                        <th>ที่อยู่</th>
+                        <th>เบอร์โทร</th>
+                        <th>แก้ไข</th>
+                        <th>ลบ</th>
+                    </tr>
+                </thead> 
+                <tbody>
+                    <tr>
+                        <td id="name"></td>
+                        <td id="addr"></td>
+                        <td id="tel"></td>
+                        <td id="edit"></td>
+                        <td id="del"></td>
+                        </tr>
+                </tbody>
+            </table>
+        </section>
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>
